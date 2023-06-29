@@ -1,0 +1,172 @@
+/* Edita o codigo inteiro e retira as barras de rolagem */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Altera o fundo do cabeçalho e o que esta dentro dele */
+.inicio{
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("components/imagens/VansFundo.jpg");
+}
+/* Altera a Div do cabeçalho e tudo dentro dele */
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 8vh;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-top: none;
+}
+/* Altera a logo da vans */
+.img{
+    position: relative;
+    width: 120px;
+    height: 53px;
+    right: 0.5px;
+    top: 0.1px;
+    background-size: cover;
+    background-image: url("components/imagens/VansLogo.png");
+}
+/* Altera o input de pesquisa */
+input{
+background-color: transparent;
+border: none;
+border-color: transparent;
+color: rgb(255, 255, 255);
+width: 10%;
+height: 10%;
+position: absolute;
+top: -0.9%;
+right: 62.5%;
+outline: none;
+}
+::placeholder{
+    color: white;
+}
+::-webkit-search-cancel-button{
+  display: none;
+}
+/* Icone do pesquisar */
+.lupa{
+    color: white;
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    right:73%;
+    top: 2.5%;
+}
+
+/* Opções de busca do site */
+select{
+    border: none;
+    position: absolute;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: transparent;
+    width: 8%;
+    font-size: 12px;
+    height: 5%;
+    right: 52%;
+    top: 1.5%;
+    outline: none;
+}
+/* cor do select */
+option{
+    color: black;
+}
+
+.Atend{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 44%;
+    top: 2.9%;
+}
+
+.Ajuda{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 38.5%;
+    top: 2.9%;
+}
+
+.Lojas{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 30%;
+    top: 2.9%;
+}
+
+.Conta{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    right: 21.5%;
+    top: 2.9%;
+}
+
+.tracoBord{
+    position: relative;
+    border-right: 1px solid white;
+    width: 100px;
+    height: 53px;
+    top: 0px;
+    right: 61px;
+}
+
+.bolsa{
+    color: rgb(255, 0, 0);
+    width: 15px;
+    height: 20px;
+    position: absolute;
+    top: 26%;
+    right:-40%;
+}
+
+.coment{
+    position: absolute ;
+    color: rgb(255, 255, 255);
+    width: 15px;
+    height: 20px;
+    top: 2.5%;
+    right: 42.5%;
+}
+
+.info{
+    position: absolute ;
+    color: rgb(255, 255, 255);
+    width: 11px;
+    height: 13px;
+    top: 2.7%;
+    right: 37.5%;
+}
+
+.store{
+    position: absolute ;
+    color: rgb(255, 255, 255);
+    width: 11px;
+    height: 13px;
+    top: 2.7%;
+    right: 29%;
+}
+
+.user{
+    position: absolute ;
+    color: rgb(255, 255, 255);
+    width: 11px;
+    height: 13px;
+    top: 2.7%;
+    right: 20.4%;
+}
+
+.web{
+    
+}
